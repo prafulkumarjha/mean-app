@@ -13,7 +13,7 @@ mongoose.connect(dbConfig.uri, (err) => {
     if (err)
         console.log("could not connect to mongo DB : " + err);
     else
-        console.log("Ahahaha!! Connection to database " + dbConfig.db + " estabilished");
+        console.log("Ahahaha!!!! Connection to database " + dbConfig.db + " estabilished");
 });
 
 
